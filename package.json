@@ -1,5 +1,5 @@
 {
-  "name": "@ohayou/react-native-http-cache",
+  "name": "@ohayou12/react-native-http-cache",
   "version": "0.2.1",
   "description": "Control http cache used by fetch/XMLHttpRequest",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "http",
     "cache"
   ],
-  "author": "tdzl2003",
+  "author": "ohayou12",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/reactnativecn/react-native-http-cache/issues"

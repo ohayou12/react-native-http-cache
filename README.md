@@ -11,7 +11,7 @@ $ npm install react-native-http-cache --save
 
 ## iOS: Linking in your XCode project
 
-- Link `react-native-http-cache` library from your `node_modules/react-native-http-cache/ios` folder like its
+- Link `@ohayou12/react-native-http-cache` library from your `node_modules/react-native-http-cache/ios` folder like its
   [described here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html).
   Don't forget to add it to "Build Phases" of project.
 
@@ -21,7 +21,7 @@ $ npm install react-native-http-cache --save
 
 ```
 include ':RCTHttpCache'
-project(':RCTHttpCache').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-http-cache/android')
+project(':RCTHttpCache').projectDir = new File(rootProject.projectDir, '../node_modules/@ohayou12/react-native-http-cache/android')
 ```
 
 - Add following lines into your `android/app/build.gradle` in section `dependencies`
