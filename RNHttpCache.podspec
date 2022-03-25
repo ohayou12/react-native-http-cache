@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
     s.summary        = "Exit,close,kill,shutdown app completely for React Native"
     s.license        = license
     s.authors        = author
-    s.source         = { :git => repository, :tag => version }
+    s.source         = { :git => "https://github.com/ohayou12/react-native-http-cache", :tag => "v#{s.version}" }
     s.platform       = :ios, "9.0"
     s.preserve_paths = 'README.md', 'package.json', '*.js'
-    s.source_files   = 'ios/RNHttpCache/**/*.{h,m}'
-    s.vendored_libraries = "ios/RNHttpCache/*.a"
-    s.public_header_files = 'ios/RNHttpCache/*.h'
+    s.source_files   = 'ios/RCTHttpCache/**/*.{h,m}'
+    s.vendored_libraries = "ios/RCTHttpCache/*.a"
+    s.public_header_files = 'ios/RCTHttpCache/*.h'
     s.dependency 'React'
 end
