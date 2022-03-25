@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
     s.source         = { :git => "https://github.com/ohayou12/react-native-http-cache", :tag => "v#{s.version}" }
     s.platform       = :ios, "9.0"
     s.preserve_paths = 'README.md', 'package.json', '*.js'
-    s.source_files   = 'ios/RCTHttpCache/**/*.{h,m}'
-    s.vendored_libraries = "ios/RCTHttpCache/*.a"
-    s.public_header_files = 'ios/RCTHttpCache/*.h'
+    s.source_files   = '**/*.{h,m}'
+    s.vendored_libraries = "**/*.a"
+    s.public_header_files = '**/*.h'
     s.dependency 'React'
 end
